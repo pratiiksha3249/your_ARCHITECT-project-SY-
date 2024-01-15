@@ -1,66 +1,71 @@
-body
-{
+body {
     margin: 0;
     padding: 0;
-    background-color:#6abadeba;
+    background-color: #6abadeba;
     font-family: 'Arial';
 }
-.login{
-        width: 382px;
-        overflow: hidden;
-        margin: auto;
-        margin: 20 0 0 450px;
-        padding: 80px;
-        background:#0a353d;
-        border-radius: 15px ;
-
+/* div like all form box */
+.login {
+    width: 382px;
+    margin: 100px auto;
+    padding: 40px;
+    background: #23463f;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-h2{
+/* login page name */
+h2 {
     text-align: center;
     color: #277582;
     padding: 20px;
 }
-label{
+
+label {
     color: #08ffd1;
     font-size: 17px;
+    margin-bottom: 10px;
 }
-#Uname{
-    width: 300px;
-    height: 30px;
-    border: none;
-    border-radius: 3px;
-    padding-left: 8px;
-}
-#Pass{
-    width: 300px;
-    height: 30px;
-    border: none;
-    border-radius: 3px;
-    padding-left: 8px;
 
-}
-#log{
-    width: 300px;
+#Uname,
+#Pass
+ {
+    width: 100%;
     height: 30px;
     border: none;
     border-radius: 3px;
     padding-left: 8px;
+    margin-bottom: 15px;
+}
+
+#log {
     color: blue;
-    
+}
 
-}
-span{
-    color: white;
-    font-size: 17px;
-}
-a{
+a {
     float: right;
     background-color: grey;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
 }
-#login_button{
-    width: 300px;
+
+/* signup link hover */
+ a:hover {
+    background: #ddd;
+    color: black;
+  }
+/* login here button edits */
+#logb{
+    /* color:#277582; */
+    width: 50%;
     height: 30px;
     border: none;
     border-radius: 3px;
     padding-left: 8px;
+    margin-bottom: 15px;
+    margin-left: 100px;
+    align-items: center;
 }

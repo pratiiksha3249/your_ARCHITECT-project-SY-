@@ -1,42 +1,50 @@
 #topnav{
 
 width: 100%;
-background-color:#0a353d ;
+/* background-color:#0a353d ; */
+background-color:darkslategray;
 height: 10%;
 padding-top: 2%;
-};
+position: fixed;
+}
 .pagenamge{
     font-weight:1000px;
 }
-
+/* your title name */
 
 .font1{
     /* font-family:italic ; */
     /* font-family:cursive ; */
     font-family:Forte ;
-    color:aliceblue;
+    color:orangered;
     font-size:x-large;
 }
-
+/* ARCHITECT name */
 
 .font2{
      font-family: Cooper;
       
      font-weight:bold;
      font-size: x-large;
-     color:aliceblue;
+     color:orangered;
 }
 
-a:link { 
+ a:link { 
     text-decoration: none; 
     color:aliceblue;
+    /* color:chartreuse; */
     /* font-family:Cooper ; */
     
-  } 
-
+  }
+  
+  /* all nav bar link edit with hover it */
+a:hover{
+color:orangered;
+}
 
   body{
- background-color: rgb(84, 220, 220);
+ background-color:rgb(2, 2, 16);
+ /* background-color: rgb(84, 220, 220); */
   }
   .headers{
     size:"7000px";
@@ -45,47 +53,88 @@ a:link {
   .flex-container{
          display:flex;
          flex-wrap: wrap;
+         /* justify-content: center; */
   }
+
+
+div img{
+  width:  235px;
+  height: 235px;
+  /* box-shadow: 4px 7px 0px black; */
+  transition: 400ms;
+  border-radius:7%;
+  align-content:center;
+}
+div img:hover{
+  transform:scale(1.03);
+}
 
   .flex-itam{
     width:  240px;
     height: 240px;
-    border-color: black;
-    border: 2px solid brown;
+    /* border-color: black; */
+    /* border: 2px solid black; */
     /* justify-content: space-between; */
     margin: 10px;
+    /* border-radius: 6%; */
+    padding:-1%;
   }
 
   .flex-container2{
     display:flex;
     flex-wrap: wrap;
+    
 }
 
 .flex-itam2{
     width:  240px;
     height: 30px;
-    border-color: black;
-    border: 2px solid brown;
+    /* border-color: black; */
+    /* border: 2px solid black; */
     /* justify-content: space-between; */
     margin: 10px;
     margin-top: -0%;
+    /* border-radius:7%; */
   }
 
   
-  .flex-container3{
-    display:flex;
-    flex-wrap: wrap;
-}
-
-.flex-itam4{
-    width:  240px;
-    height: 240px;
-    border-color: black;
-    border: 2px solid brown;
-    /* justify-content: space-between; */
-    margin: 10px;
+   /* .button_about { */
+       /* padding-left: 10%;  */
+      /* background-color: grey;
+      text-decoration: none;
+       padding: 5px 10px; */
+      /* border-radius: 5px;
+      color: white;
+      height: 1%;
+      width: 2%;
+  }  */
+  .label1{
+    /* padding-left:20%; */
+    padding:3%;
+    border-radius: 10%;
+     background-color:darkslategray; 
+     margin-left:15% ;
+     color:beige;  
   }
-
+  .label2{
+    /* padding-left:20%; */
+    padding:3%;
+    border-radius: 10%;
+     background-color:darkslategray; 
+     margin-left:30% ;
+     color:beige;
+     
+  }
+  .label1:hover {
+    background-color:orangered;
+    color: white;
+  }
+  .label2:hover {
+    background-color:orangered;
+    color: white;
+  }
+  
+  
 
 
 
