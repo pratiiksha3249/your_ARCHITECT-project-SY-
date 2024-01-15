@@ -55,7 +55,7 @@ a {
 /* signup link hover */
  a:hover {
     background: #ddd;
-    color: black;
+    color: orangered;
   }
 /* login here button edits */
 #logb{

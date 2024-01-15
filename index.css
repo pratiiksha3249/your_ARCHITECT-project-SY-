@@ -31,13 +31,12 @@ position: fixed;
 
  a:link { 
     text-decoration: none; 
-    color:aliceblue;
-    /* color:chartreuse; */
-    /* font-family:Cooper ; */
+    color:wheat;
     
   }
   
   /* all nav bar link edit with hover it */
+
 a:hover{
 color:orangered;
 }
@@ -49,6 +48,7 @@ color:orangered;
   .headers{
     size:"7000px";
       font-size:large;
+      color:azure;
   }
   .flex-container{
          display:flex;
@@ -64,6 +64,8 @@ div img{
   transition: 400ms;
   border-radius:7%;
   align-content:center;
+  /* --------------- */
+  /* position:sticky; */
 }
 div img:hover{
   transform:scale(1.03);
@@ -97,17 +99,6 @@ div img:hover{
     /* border-radius:7%; */
   }
 
-  
-   /* .button_about { */
-       /* padding-left: 10%;  */
-      /* background-color: grey;
-      text-decoration: none;
-       padding: 5px 10px; */
-      /* border-radius: 5px;
-      color: white;
-      height: 1%;
-      width: 2%;
-  }  */
   .label1{
     /* padding-left:20%; */
     padding:3%;
