@@ -1,55 +1,55 @@
-#topnav{
+  #topnav{
 
-width: 100%;
-/* background-color:#0a353d ; */
-background-color:darkslategray;
-height: 10%;
-padding-top: 2%;
-position: fixed;
-}
-.pagenamge{
-    font-weight:1000px;
-}
-/* your title name */
-
-.font1{
-    /* font-family:italic ; */
-    /* font-family:cursive ; */
-    font-family:Forte ;
-    color:orangered;
-    font-size:x-large;
-}
-/* ARCHITECT name */
-
-.font2{
-     font-family: Cooper;
-      
-     font-weight:bold;
-     font-size: x-large;
-     color:orangered;
-}
-
- a:link { 
-    text-decoration: none; 
-    color:wheat;
-    
+  /* width: 100%; */
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0px 15px 40px;
+  /* background-color:#0a353d ; */
+  background-color:darkslategray;
+  /* height: 10%; */
+  /* padding-top: 2%; */
+  /* position: fixed; */
+    top: 0px;
   }
-  
-  /* all nav bar link edit with hover it */
 
-a:hover{
-color:orangered;
-}
-
-  body{
- background-color:rgb(2, 2, 16);
- /* background-color: rgb(84, 220, 220); */
+  .flex-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    margin-top: 40px;
   }
+
+  .flex-container2 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    flex-direction: row;
+  }
+
+  .first{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 30px 10px 40px;
+  }
+  .second{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 30px 10px 40px;
+  }
+  .inner{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    padding: 0px 0px 0px 40px;
+
+  }
+
   .headers{
-    size:"7000px";
-      font-size:large;
-      color:azure;
+    padding: 0px 20px 20px 20px;
   }
+<<<<<<< HEAD
   .flex-container{
          display:flex;
          flex-wrap: wrap;
@@ -89,20 +89,43 @@ div img:hover{
   .flex-container2{
     display:flex;
     flex-wrap: wrap;
-    
-}
+=======
+  .pagenamge{
+      font-weight:1000px;
+  }
+  /* your title name */
 
-.flex-itam2{
-    width:  240px;
-    height: 30px;
-    /* border-color: black; */
-    /* border: 2px solid black; */
-    /* justify-content: space-between; */
-    margin: 10px;
-    margin-top: -0%;
-    /* border-radius:7%; */
+  .font1{
+      /* font-family:italic ; */
+      /* font-family:cursive ; */
+      font-family:Forte ;
+      color:orangered;
+      font-size:x-large;
+  }
+  /* ARCHITECT name */
+
+  .font2{
+      font-family: Cooper;
+        
+      font-weight:bold;
+      font-size: x-large;
+      color:orangered;
   }
 
+  a:link { 
+      text-decoration: none; 
+      color:wheat;
+      
+    }
+>>>>>>> eddd58641e1c793886b2ec2999af341ad8b73b66
+    
+    /* all nav bar link edit with hover it */
+
+  a:hover{
+  color:orangered;
+  }
+
+<<<<<<< HEAD
   .label1{
     /* padding-left:20%; */
     padding:3%;
@@ -130,6 +153,90 @@ div img:hover{
   }
   
   
+=======
+    body{
+  background-color:rgb(2, 2, 16);
+  /* background-color: rgb(84, 220, 220); */
+  margin: 0;
+    }
+    .headers{
+      size:"7000px";
+        font-size:large;
+        color:azure;
+    }
+    .flex-container{
+          display:flex;
+          flex-wrap: wrap;
+          /* justify-content: center; */
+    }
+>>>>>>> eddd58641e1c793886b2ec2999af341ad8b73b66
 
 
+  div img{
+    width:  235px;
+    height: 235px;
+    /* box-shadow: 4px 7px 0px black; */
+    transition: 400ms;
+    border-radius:7%;
+    align-content:center;
+    /* --------------- */
+    /* position:sticky; */
+  }
+  div img:hover{
+    transform:scale(1.03);
+  }
 
+    .flex-itam{
+      width:  240px;
+      height: 240px;
+      /* border-color: black; */
+      /* border: 2px solid black; */
+      /* justify-content: space-between; */
+      margin: 10px;
+      /* border-radius: 6%; */
+      padding:-1%;
+    }
+
+    .flex-container2{
+      display:flex;
+      flex-wrap: wrap;
+      
+  }
+
+  .flex-itam2{
+      width:  240px;
+      height: 30px;
+      /* border-color: black; */
+      /* border: 2px solid black; */
+      /* justify-content: space-between; */
+      margin: 10px;
+      margin-top: -0%;
+      /* border-radius:7%; */
+    }
+
+    .label1{
+      /* padding-left:20%; */
+      padding:3%;
+      border-radius: 10%;
+      background-color:darkslategray; 
+      margin-left:15% ;
+      color:beige;  
+    }
+    .label2{
+      /* padding-left:20%; */
+      padding:3%;
+      border-radius: 10%;
+      background-color:darkslategray; 
+      margin-left:30% ;
+      color:beige;
+      
+    }
+    .label1:hover {
+      background-color:orangered;
+      color: white;
+    }
+    .label2:hover {
+      background-color:orangered;
+      color: white;
+    }
+    
