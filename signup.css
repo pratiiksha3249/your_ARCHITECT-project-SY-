@@ -8,20 +8,33 @@ body
 .signup{
         width: 382px;
         overflow: hidden;
-        margin: auto;
-        margin: 20 0 0 450px;
+        /* margin: auto; */
+        /* margin: 20 0 0 450px; */
         padding: 80px;
         background:  #0a353d;
         border-radius: 15px ;
         margin-bottom: 10%;
+        padding-right:1%;
+        margin-left:30%;
+        padding-bottom:2%;
        
 
 }
 h2{
-    text-align: center;
+    /* text-align: center;
     color:#16332d;
     padding: 20px;
-    /* position: fixed; */
+    position: fixed; */
+    margin-top:1%;
+    text-align: center;
+    color:#277582;
+    font-weight:30px;
+    font-family: Cooper;
+    margin-left: 0%; 
+    font-weight:bold;
+    font-size: xx-large;
+
+
 }
 label{
     color: #08ffd1;
@@ -91,8 +104,12 @@ a{
     padding-left: 8px;
 
 };
+
 #singup_title{
-color: #16332d;
+color: #277582;
+
+
+
 };
 
 

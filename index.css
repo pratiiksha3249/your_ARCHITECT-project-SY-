@@ -53,6 +53,7 @@ color:orangered;
   .flex-container{
          display:flex;
          flex-wrap: wrap;
+         padding-left:5%;
          /* justify-content: center; */
   }
 
@@ -76,10 +77,13 @@ div img:hover{
     height: 240px;
     /* border-color: black; */
     /* border: 2px solid black; */
-    /* justify-content: space-between; */
+    /* justify-content:space-between; */
+    justify-content:space-around;
     margin: 10px;
     /* border-radius: 6%; */
     padding:-1%;
+   
+  
   }
 
   .flex-container2{
@@ -104,7 +108,7 @@ div img:hover{
     padding:3%;
     border-radius: 10%;
      background-color:darkslategray; 
-     margin-left:15% ;
+     margin-left:50% ;
      color:beige;  
   }
   .label2{
@@ -112,7 +116,7 @@ div img:hover{
     padding:3%;
     border-radius: 10%;
      background-color:darkslategray; 
-     margin-left:30% ;
+     margin-left:19% ;
      color:beige;
      
   }

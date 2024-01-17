@@ -113,5 +113,11 @@ div img:hover{
           font-size:large;
           color:azure;
       }
+
+      .info_person{
+      /* float:left; */
+      padding-top:-4;
+        clear:;
+      }
     
     
