@@ -24,11 +24,13 @@ h1{
 body{
     background-color:#6abadeba;
 }
-h3{
+h3{   text-align: center;
+    color:#277582;
+    font-weight:30px;
     font-family: Cooper;
-    text-align: center;
-    color:black;
+    margin-left: 0%; 
     font-weight:bold;
+    font-size: x-large;
 
     
 }

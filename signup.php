@@ -8,7 +8,7 @@
   
     <h2>Signup Page</h2><br>
     <div class="signup">
-    <form>
+    <form method="post" action="#">
     <!-- <form id="login" method="get" action="login.php"> -->
         <label><b>User Name
         </b>
@@ -29,7 +29,7 @@
         <br>
         </label>
         
-        <input type="email" name="Pass1" id="eml" placeholder="email">
+        <input type="email" name="Eml" id="eml" placeholder="email">
         <br><br>
 
         <label><b>Phone
@@ -37,7 +37,7 @@
         <br>
         </label>
 
-        <input type="text" name="Uname" id="ph" placeholder="phone">
+        <input type="text" name="ph" id="ph" placeholder="phone">
         <br><br>
       
 
@@ -48,12 +48,35 @@
         <br>
 
 
-<input id="signup_button" type="button" value="signup"><a href="index.html"></a>
+<!-- <input type="button" id="signup_button"  value="signup"> -->
+<a href="index.html">button</a>
       <!-- Have you already an account<a href="signup.html">signup</a> -->
       <br><br><br>
-      Have you already an account<a href="login.html">login</a>
+       Have you already an account<a href="login.html">login</a> 
         <br><br>
           </form>
 </div>
 </body>
 </html>
+
+<?php
+$con=mysqli_connect("localhost","root","");
+
+if($con==false){
+  die("Error in database connection...");
+}
+$uname1=$_POST["uname"];
+$pss1=$_POST["pass"];
+$Eml1=$_POST["Eml"];
+$pno=$_POST["ph"];
+
+mysqli_query("use architect");
+$k=mysqli_query("insert into signup values ('$uname1',$pass1,$Eml1,$pno)");
+
+if($k==TRUE)
+echo("insert succusfullly...");
+else
+echo("not inserted..");
+
+mysqli_close($con);
+?>
